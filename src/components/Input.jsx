@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 export default function Input(props) {
     return (
-        <div>
+        <Fragment>
             <label htmlFor="name-input">Enter your name below:</label>
             <input 
                 id="name-input" 
@@ -11,6 +11,6 @@ export default function Input(props) {
                 onChange={e => props.handleChange(e.target.value)}
                 value={props.value}
             />
-        </div>
+        </Fragment>
     )
 }
