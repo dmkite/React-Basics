@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import ImageSelector from './components/ImageSelector'
 import Title from './components/Title'
 import Instructions from './components/Instructions'
+import Input from './components/Input'
 
 function App() {
   const [title, changeTitle] = useState('')
@@ -14,10 +15,11 @@ function App() {
   return <main>
     <header>
       <ImageSelector/>
-      <Title/>
+      <Title title={title}/>
     </header>
     <section>
       {/* Input component goes here */}
+      <Input handleChange={changeTitle} value={title} />
       <hr/>
       <Instructions/>
     </section>
