@@ -240,7 +240,7 @@ The input component should match the styling in this mock
 ![Screenshot](screenshot.png)
 
 The following critera must be met:
-[] A text input w/ label exists
-[] When a user types in the input, the 'Placeholder Title' changes to match the content
-[] when a user's name is longer than 10 characters, it should flash different colors
-[] No uneeded wrapping `div`s are used
+- [ ] A text input w/ label exists
+- [ ] When a user types in the input, the 'Placeholder Title' changes to match the content
+- [ ] when a user's name is longer than 10 characters, it should flash different colors
+- [ ] No uneeded wrapping `div`s are used
