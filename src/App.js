@@ -14,10 +14,11 @@ function App() {
   return <main>
     <header>
       <ImageSelector/>
-      <Title/>
+      <Title title={title}/>
     </header>
     <section>
       {/* Input component goes here */}
+      <Input handleChange={changeTitle} value={title} />
       <hr/>
       <Instructions/>
     </section>
