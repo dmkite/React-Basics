@@ -26,14 +26,14 @@ Any JavaScript expression can be put inside of JSX so long as it is inside `{` a
 **OK**
 ```jsx
 const title = 'This is my title'
-const shouldHaveGreeting = True
-const shouldHaveFarewell = False
+const shouldHaveGreeting = true
+const shouldHaveFarewell = false
 
 const MyComponentWithExpressions = () => {
     return <main>
         <h1>{title}</h1>
         {shouldHaveGreeting && <p>Hi!</p>}
-        <p>{shouldHaveFarewell ? 'Goodebye!' : 'some other text instead'}</p>
+        <p>{shouldHaveFarewell ? 'Goodbye!' : 'some other text instead'}</p>
         <p>You can even loop within brackets:</p>
         {
             [1, 2, 3].map((number, i) => <p key={i}>{number}</p>)
