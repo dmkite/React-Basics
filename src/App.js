@@ -4,6 +4,7 @@ import {Title} from './components/Title'
 import {Instructions} from './components/Instructions'
 import {Input} from './components/Input'
 import {Disclaimer} from './components/Disclaimer'
+import {Signup} from './components/Signup'
 
 function App() {
   const [title, changeTitle] = useState('')
@@ -18,6 +19,7 @@ function App() {
       <hr/>
       <Instructions/>
     </section>
+    <Signup/>
     <Disclaimer name={title}/>
   </main>
 }

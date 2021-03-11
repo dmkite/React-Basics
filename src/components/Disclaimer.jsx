@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Disclaimer = (props) => (
-    <section> 
+    <section className="disclaimer"> 
         None of the authors, contributors, administrators, vandals, or anyone 
         else connected with Social Media for Animals, in any way whatsoever, 
         can be responsible for {props.name || 'your'} emotional damage or loss 
