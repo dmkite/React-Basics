@@ -83,7 +83,11 @@ These functions use a constructor and usually tie props to state. We'll get to p
 ```jsx
 import React from 'react'
 
+<<<<<<< HEAD
 export const Title() {
+=======
+export default function Title() {
+>>>>>>> solution 2 part 1
     return ...
 }
 ```
@@ -181,7 +185,11 @@ For our purposes there are two main ways of exporting a component. A `default ex
 
 A module can only have **one** default export. You can use a default export on a component like this:
 ```jsx
+<<<<<<< HEAD
 export const MyDefaultExport1(){
+=======
+export default function MyDefaultExport1(){
+>>>>>>> solution 2 part 1
     return <p>I am a default export</p>
 } 
 
@@ -243,7 +251,11 @@ A virtual DOM is like the DOM, but it doesn't actually render to the screen. On 
 We need to add an input component so a user can add their name.
 
 The input component should match the styling in this mock
+<<<<<<< HEAD
 ![Screenshot](./screenshots/lesson-1.png)
+=======
+![Screenshot](screenshot.png)
+>>>>>>> solution 2 part 1
 
 The following critera must be met:
 - [ ] A text input w/ label exists

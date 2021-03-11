@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 
-export default function Input(props) {
+export const Input = props => {
     return (
         <Fragment>
             <label htmlFor="name-input">Enter your name below:</label>
