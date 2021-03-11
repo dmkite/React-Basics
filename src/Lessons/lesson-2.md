@@ -8,6 +8,8 @@ WHEN I see the homepage
 THEN I see a small disclaimer at the bottom
 
 **Resources**
+Screenshot to match:
+![Screenshot](./screenshots/lesson-2-1.png)
 
 Disclaimer text:
 > None of the authors, contributors, administrators, vandals, or anyone else connected with Social Media for Animals, in any way whatsoever, can be responsible for your emotional damage or loss of free time.
