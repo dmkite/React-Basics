@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 
-export default function Instructions() {
+export const Instructions = () => {
     return (
         <Fragment>
             <p>Welcome to the future, welcome to social media for animals.</p>

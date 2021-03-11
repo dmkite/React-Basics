@@ -83,7 +83,7 @@ These functions use a constructor and usually tie props to state. We'll get to p
 ```jsx
 import React from 'react'
 
-export default function Title() {
+export const Title() {
     return ...
 }
 ```
@@ -181,7 +181,7 @@ For our purposes there are two main ways of exporting a component. A `default ex
 
 A module can only have **one** default export. You can use a default export on a component like this:
 ```jsx
-export default function MyDefaultExport1(){
+export const MyDefaultExport1(){
     return <p>I am a default export</p>
 } 
 

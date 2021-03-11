@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Image from './Image'
+import {Image} from './Image'
 import boar from '../img/boar.png'
 import dog from '../img/dog.png'
 import elephant from '../img/elephant.png'
@@ -22,7 +22,7 @@ const animalImages = [
     { name: 'sloth', path: sloth }
 ]
 
-export default function ImageSelector() {
+export const ImageSelector = () => {
     const [isOpen, changeOpen] = useState(false)
     const [animalSrc, changeAnimalSrc] = useState(null)
 

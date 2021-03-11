@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Image(props) {
+export const Image = props => {
     return (
         <div className="image" onClick={() => props.handleClick(props.src)}>
             <img 

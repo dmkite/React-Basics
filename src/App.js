@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import ImageSelector from './components/ImageSelector'
-import Title from './components/Title'
-import Instructions from './components/Instructions'
+import {ImageSelector} from './components/ImageSelector'
+import {Title} from './components/Title'
+import {Instructions} from './components/Instructions'
 
 function App() {
   const [title, changeTitle] = useState('')
