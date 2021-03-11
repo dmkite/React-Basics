@@ -5,7 +5,7 @@ export const Signup = () => {
     return (
         <>  
         <button disabled={!isChecked}>Sign up</button>
-        <label>
+        <label className="age-check">
             <input type="checkbox" onChange={() => changeCheck(!isChecked)} />
             I am at least 13 years old
         </label>
