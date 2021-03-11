@@ -243,7 +243,7 @@ A virtual DOM is like the DOM, but it doesn't actually render to the screen. On 
 We need to add an input component so a user can add their name.
 
 The input component should match the styling in this mock
-![Screenshot](screenshot.png)
+![Screenshot](./screenshots/lesson-1.png)
 
 The following critera must be met:
 - [ ] A text input w/ label exists
