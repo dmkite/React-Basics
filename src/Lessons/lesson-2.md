@@ -1,7 +1,7 @@
 # React Basics 2
 ## Add the disclaimer
 **Desc**
-We need a disclaimer so we're not sued into oblivion. Add some tiny text so we CYA.
+We need a disclaimer so we're not sued into oblivion. Add some tiny text to CYA.
 
 **DoD**
 GIVEN I am a user
