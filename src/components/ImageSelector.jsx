@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {Image} from './Image'
 import boar from '../img/boar.png'
 import dog from '../img/dog.png'
@@ -24,12 +24,22 @@ const animalImages = [
 
 export const ImageSelector = () => {
     const [isOpen, changeOpen] = useState(false)
-    const [animalSrc, changeAnimalSrc] = useState(null)
+    const [animalSrc, changeAnimalSrc] = useState(
+        () => localStorage.getItem('animalSrc')
+        )
 
     const handleClick = val => {
         changeOpen(false)
         changeAnimalSrc(val)
     }
+
+    useEffect(() => {
+        console.log('useEffect firing')
+        if (animalSrc) {
+            localStorage.setItem('animalSrc', animalSrc)
+        }
+    }, [animalSrc])
+
     return (
         <div id="image-selection" onClick={() => changeOpen(!isOpen)}>
             {animalSrc
